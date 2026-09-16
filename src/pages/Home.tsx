@@ -6,12 +6,10 @@ import {
   CheckCircle2,
   ChevronRight,
   Code2,
-  Database,
   GraduationCap,
   PlayCircle,
   Sparkles,
   Trophy,
-  Users,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -66,33 +64,6 @@ const categories = [
   },
 ];
 
-const popularCourses = [
-  {
-    title: "Java Full Stack Development",
-    description:
-      "Master Java, Spring Boot, databases, REST APIs and frontend development.",
-    level: "Beginner to Advanced",
-    lessons: "120+ Lessons",
-    price: "₹4,999",
-  },
-  {
-    title: "MERN Stack Development",
-    description:
-      "Build modern full-stack applications using MongoDB, Express, React and Node.js.",
-    level: "Beginner to Advanced",
-    lessons: "100+ Lessons",
-    price: "₹4,499",
-  },
-  {
-    title: "Data Science & Analytics",
-    description:
-      "Learn Python, SQL, statistics, data analysis, visualization and machine learning.",
-    level: "Beginner to Advanced",
-    lessons: "90+ Lessons",
-    price: "₹4,999",
-  },
-];
-
 const learningPoints = [
   "Industry-relevant technologies",
   "Practical coding and projects",
@@ -108,12 +79,12 @@ const Home = () => {
           HERO SECTION
       ===================================================== */}
 
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#f7fbff] via-white to-[#eef6ff]">
+      <section className="relative overflow-hidden bg-linear-to-br from-[#f7fbff] via-white to-[#eef6ff]">
 
         {/* Background decoration */}
-        <div className="pointer-events-none absolute -right-40 -top-40 h-[500px] w-[500px] rounded-full bg-[#008CFF]/10 blur-3xl" />
+        <div className="pointer-events-none absolute -right-40 -top-40 h-125 w-125 rounded-full bg-[#008CFF]/10 blur-3xl" />
 
-        <div className="pointer-events-none absolute -bottom-40 -left-40 h-[400px] w-[400px] rounded-full bg-[#0057D9]/10 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-40 -left-40 h-100 w-100 rounded-full bg-[#0057D9]/10 blur-3xl" />
 
         <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-14 sm:px-6 sm:pt-20 lg:px-8 lg:pb-24">
 
@@ -132,7 +103,7 @@ const Home = () => {
 
               <br />
 
-              <span className="bg-gradient-to-r from-[#061F63] via-[#0057D9] to-[#008CFF] bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-[#061F63] via-[#0057D9] to-[#008CFF] bg-clip-text text-transparent">
                 Build Your Career.
               </span>
 
@@ -165,7 +136,7 @@ const Home = () => {
 
               <button
                 type="button"
-                className="rounded-xl bg-gradient-to-r from-[#061F63] via-[#0057D9] to-[#008CFF] px-7 py-4 font-bold text-white shadow-lg shadow-[#0057D9]/20 transition hover:-translate-y-0.5"
+                className="rounded-xl bg-linear-to-r from-[#061F63] via-[#0057D9] to-[#008CFF] px-7 py-4 font-bold text-white shadow-lg shadow-[#0057D9]/20 transition hover:-translate-y-0.5"
               >
                 Search
               </button>
@@ -495,7 +466,7 @@ const Home = () => {
             {/* Right */}
             <div className="relative">
 
-              <div className="rounded-3xl bg-gradient-to-br from-[#061F63] via-[#0057D9] to-[#008CFF] p-8 shadow-2xl shadow-[#0057D9]/20 sm:p-10">
+              <div className="rounded-3xl bg-linear-to-br from-[#061F63] via-[#0057D9] to-[#008CFF] p-8 shadow-2xl shadow-[#0057D9]/20 sm:p-10">
 
                 <div className="grid gap-4 sm:grid-cols-2">
 
@@ -597,7 +568,7 @@ const Home = () => {
 
               </div>
 
-              <div className="flex aspect-video items-center justify-center rounded-2xl bg-gradient-to-br from-[#061F63] via-[#0057D9] to-[#008CFF]">
+              <div className="flex aspect-video items-center justify-center rounded-2xl bg-linear-to-br from-[#061F63] via-[#0057D9] to-[#008CFF]">
 
                 <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-xl">
                   <PlayCircle

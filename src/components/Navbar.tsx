@@ -36,7 +36,7 @@ const Navbar = () => {
       ===================================================== */}
 
       <header className="sticky top-0 z-50 w-full border-b border-[#D8E9FF] bg-white">
-        <div className="mx-auto flex h-16 w-full max-w-[1440px] items-center px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto flex h-16 w-full max-w-360 items-center px-4 sm:px-6 lg:px-8">
 
           {/* =================================================
               SILANTECH LOGO
@@ -101,7 +101,7 @@ const Navbar = () => {
 
           <div className="ml-8 hidden min-w-0 flex-1 md:block">
 
-            <div className="mx-auto flex max-w-[460px] items-center rounded-xl border border-[#C9DFFF] bg-[#F8FBFF] transition-all duration-200 focus-within:border-[#0057D9] focus-within:bg-white focus-within:ring-4 focus-within:ring-[#EAF4FF]">
+            <div className="mx-auto flex max-w-115 items-center rounded-xl border border-[#C9DFFF] bg-[#F8FBFF] transition-all duration-200 focus-within:border-[#0057D9] focus-within:bg-white focus-within:ring-4 focus-within:ring-[#EAF4FF]">
 
               <Search
                 size={19}

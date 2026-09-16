@@ -17,32 +17,12 @@ const AppRoutes = () => {
       <Route element={<MainLayout/>}>
 
         <Route path="/" element={<Home />} />
-
         <Route path="/about" element={<About />} />
-        {/* <Route
-          path="/courses"
-          element={<Courses />}
-        />
-
-        <Route
-          path="/courses/:slug"
-          element={<CourseDetails />}
-        />
-
-        <Route
-          path="/tutorials"
-          element={<Tutorials />}
-        />
-
-        <Route
-          path="/tutorials/:slug"
-          element={<TutorialDetails />}
-        />
-
-        <Route
-          path="/practice"
-          element={<Practice />}
-        /> */}
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/courses/:slug" element={<CourseDetails />} />
+        <Route path="/tutorials" element={<Tutorials />} />
+        <Route path="/tutorials/:slug" element={<TutorialDetails />} />
+        <Route path="/practice" element={<Practice />} />
       </Route>
     </Routes>
   );
