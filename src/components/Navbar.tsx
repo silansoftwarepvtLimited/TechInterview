@@ -55,7 +55,7 @@ const Navbar = () => {
             <img
               src="/logo_text.png"
               alt="SilanTech"
-              className="h-8 w-44 object-contain"
+              className="h-56 w-52 object-contain mt-2"
             />
           </Link>
 

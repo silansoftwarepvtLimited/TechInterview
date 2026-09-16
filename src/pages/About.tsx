@@ -66,7 +66,7 @@ const About = () => {
           </h2>
 
           <p className="mt-5 text-base leading-7 text-gray-600 sm:text-lg">
-            CodeInterview360 is a technology learning and interview
+            TechInterview360 is a technology learning and interview
             preparation platform designed to help students, developers,
             freshers, and professionals build practical skills and become
             industry-ready.
@@ -83,7 +83,7 @@ const About = () => {
             </h3>
 
             <p className="mt-5 leading-7 text-gray-600">
-              CodeInterview360 brings programming tutorials, online courses,
+              TechInterview360 brings programming tutorials, online courses,
               coding practice, interview preparation, assessments, and
               career-focused learning resources together in one platform.
             </p>
@@ -129,7 +129,7 @@ const About = () => {
               </p>
 
               <p className="mt-2 text-sm leading-6 text-gray-600">
-                TechInterView is owned and operated by Silan Software Pvt.
+                TechInterView360 is owned and operated by Silan Software Pvt.
                 Ltd., providing technology education and career-focused
                 learning solutions.
               </p>

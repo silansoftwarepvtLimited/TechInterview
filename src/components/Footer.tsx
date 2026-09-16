@@ -21,23 +21,25 @@ const Footer = () => {
         ========================================= */}
 
         <div>
-          <Link
-            to="/"
-            className="inline-flex items-center"
-          >
-            <img
-              src="/logo_text.png"
-              alt="CodeInterview360"
-              className="h-9 w-auto max-w-[210px] object-contain"
-            />
-          </Link>
+      <Link
+    to="/"
+    className="block h-12 w-[210px] overflow-hidden"
+  >
+    <img
+      src="/logo_text.png"
+      alt="TechInterview360"
+      className="h-full w-full object-cover object-left"
+    />
+  </Link>
 
-          <p className="mt-5 max-w-sm text-sm leading-6 text-gray-600">
-            Learn programming, development, data science,
-            artificial intelligence and modern technologies
-            with structured learning resources, courses and
-            interview preparation.
-          </p>
+  {/* Content directly under logo */}
+  <p className="mt-4 max-w-sm text-sm leading-6 text-gray-600">
+    Learn programming, development, data science,
+    artificial intelligence and modern technologies
+    with structured learning resources, courses and
+    interview preparation.
+  </p>
+
 
           {/* Social Icons */}
 {/* 
