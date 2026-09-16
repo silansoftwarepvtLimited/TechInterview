@@ -46,11 +46,11 @@ const Navbar = () => {
             to="/"
             className="flex shrink-0 items-center gap-2"
           >
-            <img
+            {/* <img
               src="/favicon.png"
               alt="SilanTech Logo"
               className="h-10 w-10 object-contain"
-            />
+            /> */}
 
             <img
               src="/logo_text.png"
